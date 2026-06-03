@@ -91,7 +91,6 @@ SIDEBAR
 [data-testid="stSidebar"] {
     background: #08101F;
     border-right: 1px solid #1F2937;
-    width: 230px !important;
 }
 
 section[data-testid="stSidebar"] > div {
@@ -272,5 +271,12 @@ SIDEBAR
 
 
 [data-testid="stSidebar"] {
-    min-width: 230px !important;
+    background: #08101F;
+    border-right: 1px solid #1F2937;
+}
+
+/* Allow content to expand when sidebar collapses */
+
+.main .block-container {
+    max-width: 100% !important;
 }
