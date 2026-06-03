@@ -506,6 +506,15 @@ This project is developed for educational and research purposes.
 
 ---
 
+# 🌍 Deployment
+
+The application is deployed on Streamlit Cloud and can be accessed here:
+
+https://hdie-decision-intelligence.streamlit.app/
+
+The deployment automatically updates whenever new changes are pushed to GitHub.
+
+---
 # 👤 Author
 
 **Disha R**
