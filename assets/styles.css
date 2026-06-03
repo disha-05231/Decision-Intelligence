@@ -13,13 +13,12 @@ REMOVE STREAMLIT HEADER + TOP SPACE
 ========================================================= */
 
 header {
-    display: none !important;
+    background: transparent !important;
 }
 
 [data-testid="stHeader"] {
-    display: none !important;
+    background: transparent !important;
 }
-
 [data-testid="stToolbar"] {
     display: none !important;
 }
@@ -272,4 +271,22 @@ CUSTOM CARDS
     padding: 18px;
     border-radius: 16px;
     border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* =========================================
+RESTORE SIDEBAR TOGGLE BUTTON
+========================================= */
+
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: fixed !important;
+    top: 12px !important;
+    left: 12px !important;
+    z-index: 999999 !important;
+}
+
+[data-testid="stSidebar"] {
+    min-width: 230px !important;
 }
