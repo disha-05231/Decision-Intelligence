@@ -8,6 +8,7 @@ from streamlit_option_menu import option_menu
 st.set_page_config(
     page_title="HDIE",
     layout="wide",
+    page_icon="📊",
     initial_sidebar_state="expanded"
 )
 
