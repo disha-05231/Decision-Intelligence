@@ -4,6 +4,15 @@ An end-to-end Machine Learning and Decision Intelligence platform that transform
 
 ---
 
+## 🔗 Quick Access
+
+| Resource | Link |
+|-----------|--------|
+| 🚀 Live Application | https://hdie-decision-intelligence.streamlit.app/ |
+| 📂 GitHub Repository | https://github.com/disha-05231/Decision-Intelligence |
+
+---
+
 ## 📌 Project Overview
 
 The Human Decision Intelligence Engine (HDIE) is designed to help organizations understand customer decision-making behavior using Machine Learning and Behavioral Analytics.
