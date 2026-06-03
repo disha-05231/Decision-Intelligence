@@ -1,0 +1,275 @@
+/* =========================================================
+GLOBAL APP
+========================================================= */
+
+.stApp {
+    background: #0B1020;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+/* =========================================================
+REMOVE STREAMLIT HEADER + TOP SPACE
+========================================================= */
+
+header {
+    display: none !important;
+}
+
+[data-testid="stHeader"] {
+    display: none !important;
+}
+
+[data-testid="stToolbar"] {
+    display: none !important;
+}
+
+[data-testid="stDecoration"] {
+    display: none !important;
+}
+
+section.main > div {
+    padding-top: 0rem !important;
+}
+
+[data-testid="stAppViewContainer"] {
+    padding-top: 0rem !important;
+    margin-top: 0rem !important;
+}
+
+.block-container {
+    max-width: 100% !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    margin-top: -1.5rem !important;
+}
+
+.block-container > div:first-child {
+    margin-top: 0rem !important;
+    padding-top: 0rem !important;
+}
+
+/* =========================================================
+HEADINGS
+========================================================= */
+
+h1 {
+    color: white !important;
+    font-size: 3rem !important;
+    font-weight: 800 !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0.3rem !important;
+    padding-top: 0rem !important;
+}
+
+h2 {
+    color: white !important;
+    font-size: 2rem !important;
+    font-weight: 700 !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0.5rem !important;
+    padding-top: 0rem !important;
+}
+
+h3 {
+    color: white !important;
+    font-size: 1.3rem !important;
+    font-weight: 600 !important;
+    margin-top: 0rem !important;
+    margin-bottom: 0.3rem !important;
+    padding-top: 0rem !important;
+}
+
+/* =========================================================
+TEXT
+========================================================= */
+
+p,
+span,
+label {
+    color: #D1D5DB !important;
+}
+
+/* =========================================================
+SIDEBAR
+========================================================= */
+
+[data-testid="stSidebar"] {
+    background: #08101F;
+    border-right: 1px solid #1F2937;
+    width: 230px !important;
+}
+
+section[data-testid="stSidebar"] > div {
+    padding-top: 1rem !important;
+}
+
+/* =========================================================
+SIDEBAR MENU
+========================================================= */
+
+.nav-link {
+    background: transparent !important;
+    border-radius: 14px !important;
+    margin-bottom: 8px !important;
+    padding: 12px !important;
+    font-size: 16px !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link-selected {
+    background: linear-gradient(
+        90deg,
+        #7C3AED,
+        #2563EB
+    ) !important;
+
+    color: white !important;
+    font-weight: 700 !important;
+
+    box-shadow:
+        0 0 18px rgba(124,58,237,0.35);
+}
+
+/* =========================================================
+METRIC CARDS
+========================================================= */
+
+[data-testid="metric-container"] {
+    background: linear-gradient(
+        145deg,
+        #111827,
+        #1F2937
+    );
+
+    border: 1px solid #374151;
+
+    border-radius: 18px;
+
+    padding: 18px;
+
+    box-shadow:
+        0 0 10px rgba(59,130,246,0.12);
+
+    transition: 0.3s ease;
+}
+
+[data-testid="metric-container"]:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 0 18px rgba(59,130,246,0.25);
+}
+
+[data-testid="metric-container"] label {
+    color: #9CA3AF !important;
+    font-size: 14px !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+/* =========================================================
+BUTTONS
+========================================================= */
+
+.stButton > button {
+    width: 100%;
+    border-radius: 14px;
+    border: none;
+    height: 3rem;
+
+    background: linear-gradient(
+        90deg,
+        #7C3AED,
+        #2563EB
+    );
+
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+
+    transition: 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: scale(1.02);
+
+    box-shadow:
+        0 0 15px rgba(124,58,237,0.35);
+}
+
+/* =========================================================
+PLOTLY CHARTS
+========================================================= */
+
+[data-testid="stPlotlyChart"] {
+    background: #111827;
+    padding: 8px;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* =========================================================
+DATAFRAME
+========================================================= */
+
+[data-testid="stDataFrame"] {
+    border-radius: 15px;
+    overflow: hidden;
+    border: 1px solid #1F2937;
+}
+
+/* =========================================================
+INPUTS
+========================================================= */
+
+.stSelectbox div,
+.stNumberInput div {
+    border-radius: 12px !important;
+}
+
+/* =========================================================
+ALERTS
+========================================================= */
+
+.stAlert {
+    border-radius: 14px !important;
+}
+
+/* =========================================================
+DIVIDERS
+========================================================= */
+
+hr {
+    margin-top: 0.6rem !important;
+    margin-bottom: 0.6rem !important;
+}
+
+/* =========================================================
+COMPACT LAYOUT
+========================================================= */
+
+.element-container {
+    margin-bottom: 0.4rem !important;
+}
+
+div[data-testid="stVerticalBlock"] > div {
+    gap: 0.25rem !important;
+}
+
+/* =========================================================
+CUSTOM CARDS
+========================================================= */
+
+.metric-card {
+    background: #111827;
+    padding: 18px;
+    border-radius: 16px;
+    border: 1px solid rgba(255,255,255,0.08);
+}

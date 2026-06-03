@@ -1,0 +1,4 @@
+Users frequently abandon carts before purchase. Consider simplifying checkout flow.
+Users compare many products before deciding. Improve recommendation precision.
+Long browsing sessions suggest decision fatigue among users.
+Most users belong to 'Impulsive Buyers' segment.

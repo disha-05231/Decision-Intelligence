@@ -1,0 +1,3 @@
+Users frequently abandon after adding products to cart.
+Users compare too many products before making decisions.
+Long browsing sessions may be causing decision fatigue.
