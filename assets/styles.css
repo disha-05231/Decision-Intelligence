@@ -19,13 +19,6 @@ header {
 [data-testid="stHeader"] {
     background: transparent !important;
 }
-[data-testid="stToolbar"] {
-    display: none !important;
-}
-
-[data-testid="stDecoration"] {
-    display: none !important;
-}
 
 section.main > div {
     padding-top: 0rem !important;
@@ -273,19 +266,10 @@ CUSTOM CARDS
     border: 1px solid rgba(255,255,255,0.08);
 }
 
-/* =========================================
-RESTORE SIDEBAR TOGGLE BUTTON
+/* ========================================
+SIDEBAR 
 ========================================= */
 
-[data-testid="collapsedControl"] {
-    display: flex !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    position: fixed !important;
-    top: 12px !important;
-    left: 12px !important;
-    z-index: 999999 !important;
-}
 
 [data-testid="stSidebar"] {
     min-width: 230px !important;
