@@ -500,12 +500,6 @@ streamlit run app/streamlit_app.py
 
 ---
 
-# 📄 License
-
-This project is developed for educational and research purposes.
-
----
-
 # 🌍 Deployment
 
 The application is deployed on Streamlit Cloud and can be accessed here:
@@ -518,7 +512,5 @@ The deployment automatically updates whenever new changes are pushed to GitHub.
 # 👤 Author
 
 **Disha R**
-
-Human Decision Intelligence Engine (HDIE)
 
 Machine Learning | Behavioral Analytics | Explainable AI
